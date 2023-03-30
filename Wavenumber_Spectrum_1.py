@@ -122,3 +122,7 @@ spec_data.index.name = 'Ky'
 spec_data.columns.name = 'Kx'
 spec_data.to_csv("spec_data.csv")
 spec_data
+
+
+if __name__ == "__main__":
+    main()
