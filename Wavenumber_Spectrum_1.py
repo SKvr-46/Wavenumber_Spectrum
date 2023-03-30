@@ -6,6 +6,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
+# import seaborn as sns
+
+#準備段階// このinput段落は後に削除を予定
 array = input("すべり分布を入力").split()  # スペースで区切られた入力を配列に格納
 row =  int(input("行数を入力"))
 column = int(input("列数を入力"))
@@ -24,12 +27,10 @@ slip = np.array(two_d_array)
 #実験的に任意の2次元断層すべり分布を生成する以外では、1つ上のセルですべりデータを受け取って、
 #two_d_arrayを作る必要がある。
 
-import numpy as np
-import matplotlib.pyplot as plt
-import pandas as pd
-# import seaborn as sns
 
-# 2次元断層すべりを生成する　幅56km,深さ20km
+
+
+# 2次元断層すべりを生成する 幅56km,深さ20km
 #データは10行18列
 nx = 28 #サンプリング数
 ny = 10
@@ -126,3 +127,4 @@ spec_data
 
 if __name__ == "__main__":
     main()
+    
